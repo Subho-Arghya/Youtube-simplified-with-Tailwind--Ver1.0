@@ -32,7 +32,7 @@ const options = {
     gl: "US",
   },
   headers: {
-    "X-RapidAPI-Key": import.meta.env.VITE_REACT_APP_RAPDAPI_KEY ? import.meta.env.VITE_REACT_APP_RAPDAPI_KEY :  '79f6e698d4msh96e6982bc0c1c72p15421bjsne8b97f0f2a2e',
+    "X-RapidAPI-Key": import.meta.env.VITE_REACT_APP_RAPDAPI_KEY,
     "X-RapidAPI-Host": "youtube138.p.rapidapi.com",
   },
 };
